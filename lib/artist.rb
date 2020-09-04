@@ -19,7 +19,7 @@ class Artist
   
   def songs
     Song.all.each do |song|
-      song.ar
+      song.art
   end
   
   def genres

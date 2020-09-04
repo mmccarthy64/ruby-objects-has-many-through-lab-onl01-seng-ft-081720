@@ -11,4 +11,6 @@ class Patient
   def self.all
     @@all
   end
+  
+  def new_appointm
 end

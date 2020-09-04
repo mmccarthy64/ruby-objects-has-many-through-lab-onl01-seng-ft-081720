@@ -21,8 +21,7 @@ class Artist
   end
   
   def genres
-    self.all.collect do |genre|
-      
+    self.all.collect {|genre| genre.name == self}
   end
   
 end

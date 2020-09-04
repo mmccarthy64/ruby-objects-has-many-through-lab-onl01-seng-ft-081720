@@ -19,4 +19,5 @@ class Patient
   def appointments
     
   end
+  
 end

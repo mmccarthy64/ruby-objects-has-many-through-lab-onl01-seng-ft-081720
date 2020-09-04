@@ -1,4 +1,5 @@
 class Artist
   
+  @@all = []
   
 end

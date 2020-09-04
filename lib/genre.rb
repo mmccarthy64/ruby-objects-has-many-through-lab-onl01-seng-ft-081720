@@ -11,11 +11,6 @@ class Genre
     @@all
   end
   
-  def new_song(name, genre)
-    song = Song.new(name)
-    @@all << song
-  end
-  
   def songs
     self.all.select {|song| song.name == self}
   end

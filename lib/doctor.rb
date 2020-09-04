@@ -13,7 +13,7 @@ class Doctor
   end
   
   def appointments
-    Appointment.all.select {|app| app.doctor == self}
+    @appointments
   end
   
   def patients
